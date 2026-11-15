@@ -1,0 +1,237 @@
+{
+  "tag": "cnn_advtrained",
+  "arch": "cnn",
+  "adv_train": true,
+  "clean_test_acc": 98.77,
+  "n_test": 10000,
+  "n_attack": 2000,
+  "n_attack_correct": 1968,
+  "attack_set_clean_acc": 98.4,
+  "steps": 10,
+  "epsilons": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "results": [
+    {
+      "attack": "FGSM",
+      "eps": 0.05,
+      "asr": 1.07,
+      "robust_acc": 97.35,
+      "linf": 0.05,
+      "l2": 1.007,
+      "seconds": 1.5
+    },
+    {
+      "attack": "I-FGSM",
+      "eps": 0.05,
+      "asr": 1.17,
+      "robust_acc": 97.25,
+      "linf": 0.05,
+      "l2": 0.792,
+      "seconds": 15.3
+    },
+    {
+      "attack": "PGD",
+      "eps": 0.05,
+      "asr": 1.27,
+      "robust_acc": 97.15,
+      "linf": 0.05,
+      "l2": 0.904,
+      "seconds": 15.3
+    },
+    {
+      "attack": "MI-FGSM",
+      "eps": 0.05,
+      "asr": 1.17,
+      "robust_acc": 97.25,
+      "linf": 0.05,
+      "l2": 0.889,
+      "seconds": 15.1
+    },
+    {
+      "attack": "FGSM",
+      "eps": 0.1,
+      "asr": 2.29,
+      "robust_acc": 96.15,
+      "linf": 0.1,
+      "l2": 2.001,
+      "seconds": 1.5
+    },
+    {
+      "attack": "I-FGSM",
+      "eps": 0.1,
+      "asr": 2.64,
+      "robust_acc": 95.8,
+      "linf": 0.1,
+      "l2": 1.468,
+      "seconds": 15.3
+    },
+    {
+      "attack": "PGD",
+      "eps": 0.1,
+      "asr": 2.69,
+      "robust_acc": 95.75,
+      "linf": 0.1,
+      "l2": 1.825,
+      "seconds": 15.2
+    },
+    {
+      "attack": "MI-FGSM",
+      "eps": 0.1,
+      "asr": 2.64,
+      "robust_acc": 95.8,
+      "linf": 0.1,
+      "l2": 1.722,
+      "seconds": 15.0
+    },
+    {
+      "attack": "FGSM",
+      "eps": 0.15,
+      "asr": 3.1,
+      "robust_acc": 95.35,
+      "linf": 0.15,
+      "l2": 2.987,
+      "seconds": 1.5
+    },
+    {
+      "attack": "I-FGSM",
+      "eps": 0.15,
+      "asr": 4.12,
+      "robust_acc": 94.35,
+      "linf": 0.15,
+      "l2": 2.089,
+      "seconds": 15.2
+    },
+    {
+      "attack": "PGD",
+      "eps": 0.15,
+      "asr": 4.62,
+      "robust_acc": 93.85,
+      "linf": 0.15,
+      "l2": 2.76,
+      "seconds": 15.1
+    },
+    {
+      "attack": "MI-FGSM",
+      "eps": 0.15,
+      "asr": 3.86,
+      "robust_acc": 94.6,
+      "linf": 0.15,
+      "l2": 2.525,
+      "seconds": 15.1
+    },
+    {
+      "attack": "FGSM",
+      "eps": 0.2,
+      "asr": 4.52,
+      "robust_acc": 93.95,
+      "linf": 0.2,
+      "l2": 3.965,
+      "seconds": 1.5
+    },
+    {
+      "attack": "I-FGSM",
+      "eps": 0.2,
+      "asr": 6.2,
+      "robust_acc": 92.3,
+      "linf": 0.2,
+      "l2": 2.65,
+      "seconds": 15.1
+    },
+    {
+      "attack": "PGD",
+      "eps": 0.2,
+      "asr": 7.16,
+      "robust_acc": 91.35,
+      "linf": 0.2,
+      "l2": 3.676,
+      "seconds": 15.1
+    },
+    {
+      "attack": "MI-FGSM",
+      "eps": 0.2,
+      "asr": 6.0,
+      "robust_acc": 92.5,
+      "linf": 0.2,
+      "l2": 3.294,
+      "seconds": 14.5
+    },
+    {
+      "attack": "FGSM",
+      "eps": 0.25,
+      "asr": 5.84,
+      "robust_acc": 92.65,
+      "linf": 0.25,
+      "l2": 4.937,
+      "seconds": 1.4
+    },
+    {
+      "attack": "I-FGSM",
+      "eps": 0.25,
+      "asr": 8.79,
+      "robust_acc": 89.75,
+      "linf": 0.25,
+      "l2": 3.158,
+      "seconds": 14.9
+    },
+    {
+      "attack": "PGD",
+      "eps": 0.25,
+      "asr": 11.28,
+      "robust_acc": 87.3,
+      "linf": 0.25,
+      "l2": 4.574,
+      "seconds": 14.8
+    },
+    {
+      "attack": "MI-FGSM",
+      "eps": 0.25,
+      "asr": 7.98,
+      "robust_acc": 90.55,
+      "linf": 0.25,
+      "l2": 4.028,
+      "seconds": 15.0
+    },
+    {
+      "attack": "FGSM",
+      "eps": 0.3,
+      "asr": 7.06,
+      "robust_acc": 91.45,
+      "linf": 0.3,
+      "l2": 5.902,
+      "seconds": 1.5
+    },
+    {
+      "attack": "I-FGSM",
+      "eps": 0.3,
+      "asr": 12.6,
+      "robust_acc": 86.0,
+      "linf": 0.3,
+      "l2": 3.621,
+      "seconds": 15.1
+    },
+    {
+      "attack": "PGD",
+      "eps": 0.3,
+      "asr": 17.63,
+      "robust_acc": 81.05,
+      "linf": 0.3,
+      "l2": 5.456,
+      "seconds": 15.0
+    },
+    {
+      "attack": "MI-FGSM",
+      "eps": 0.3,
+      "asr": 10.72,
+      "robust_acc": 87.85,
+      "linf": 0.3,
+      "l2": 4.712,
+      "seconds": 14.9
+    }
+  ]
+}

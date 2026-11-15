@@ -1,0 +1,42 @@
+{
+  "tag": "cnn_advtrained",
+  "arch": "cnn",
+  "adv_train": true,
+  "adv_eps": 0.3,
+  "params": 468010,
+  "epochs": 4,
+  "lr": 0.001,
+  "init": "saved_models/cnn.pth",
+  "train_time_sec": 668.5,
+  "device": "cpu",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 3.860399737254056,
+      "train_acc": 28.223636363636363,
+      "val_acc": 98.2,
+      "val_pgd_acc": 58.88671875
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8442334959897128,
+      "train_acc": 70.32181818181819,
+      "val_acc": 98.72,
+      "val_pgd_acc": 79.4921875
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5430134671037847,
+      "train_acc": 81.74727272727273,
+      "val_acc": 98.96,
+      "val_pgd_acc": 87.20703125
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.43271568706252356,
+      "train_acc": 85.70181818181818,
+      "val_acc": 98.98,
+      "val_pgd_acc": 87.40234375
+    }
+  ]
+}
